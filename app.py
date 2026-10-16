@@ -218,7 +218,7 @@ page_path = Path(__file__).parent / PAGES[page_label]
 
 if page_path.exists():
     with open(page_path, encoding="utf-8") as fh:
-        exec(compile(fh.read(), str(page_path), "exec"), {"__name__": "__main__"})  # noqa: S102
+        exec(compile(fh.read(), str(page_path), "exec"), {"__name__": "__main__", "__file__": str(page_path)})  # noqa: S102
 else:
     st.error(f"Page not found: {page_path}")
     st.info("This page may not yet be implemented. Check the project roadmap.")
