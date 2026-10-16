@@ -3,6 +3,7 @@
 > **A local-first, personal analytics copilot and decision intelligence platform.**  
 > Built for rigorous MBA coursework, enterprise consulting, and data engineering workflows without compromising data privacy.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ShreyasThakur11/local-data-analyst)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Engine](https://img.shields.io/badge/DuckDB-In--Memory%20SQL-FFF000.svg)](https://duckdb.org/)
@@ -76,6 +77,18 @@ local_data_analyst/
 ---
 
 ## 🚀 Quickstart & Setup
+
+### ⚡ 1-Click Launch in Browser (No Local Setup)
+
+Launch the full environment instantly in your browser with GitHub Codespaces:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ShreyasThakur11/local-data-analyst)
+
+*Clicking the button automatically builds the container, installs all Python dependencies, generates benchmark datasets, and opens the Streamlit web application on port 8501.*
+
+---
+
+### Local Installation
 
 ### 1. Prerequisites
 - Python 3.9 or higher
